@@ -10,13 +10,12 @@ function Home() {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center  px-4 md:flex-row h-full ">
         <div className="flex flex-col justify-center h-full  ">
           <h2 className="text-4xl sm:text-7xl  font-bold text-white ">
-            I'm a Front Developer
+            I'm a Front End Developer
           </h2>
           <p className="text-gray-500  py-4 max-w-md">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-            atque incidunt praesentium saepe adipisci aspernatur, similique
-            explicabo, soluta numquam ullam ex iure eaque nostrum quibusdam ea
-            suscipit consequuntur eum amet!
+            I have 1 month of experience building and desging software Currently
+            I love to work on web application using technologies like React .
+            Tailwind
           </p>
           <div>
             <button className="group text-white w-fit px-6 my-2 flex items-center  rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer p-3 font-bold">

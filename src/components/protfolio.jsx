@@ -1,5 +1,5 @@
 import React from "react";
-import pi from "../protfoliopic/website.jpg";
+
 import Demo from "../protfoliopic/demo1.png";
 import Demo2 from "../protfoliopic/demo2.jpg";
 import Demo3 from "../protfoliopic/demo3.png";

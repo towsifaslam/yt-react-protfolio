@@ -1,7 +1,7 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+
 function Scoail() {
   const links = [
     {
@@ -21,7 +21,7 @@ function Scoail() {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://github.com/towsifaslam",
     },
     {
       id: 3,
@@ -36,19 +36,18 @@ function Scoail() {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Facebook <FaFacebook size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.facebook.com/Towsifaslam/",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed ">
+    <div className="lg:flex flex-col top-[35%] left-0 fixed ">
       <ul>
-        {links.map(({ id, child, href, style, download }) => {
+        {links.map(({ id, child, href, style }) => {
           return (
             <li
               key={id}
@@ -61,7 +60,6 @@ function Scoail() {
               <a
                 href={href}
                 className="flex justify-between items-center w-full text-white"
-                download={download}
                 target="_blank"
                 rel="noreferrer"
               >

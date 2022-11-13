@@ -13,20 +13,14 @@ function About() {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi iure
-          alias quos quaerat fuga eos excepturi maxime, blanditiis eius
-          recusandae culpa enim sapiente ut velit in, quidem earum obcaecati!
-          Libero quisquam, fugit voluptatibus, temporibus doloremque repellendus
-          et autem eos perspiciatis voluptate ratione aliquid ad iste in ut
-          magni molestiae tempore!
+          Assalamualikum <br />
+          I am Tajul Islam "Towsif" <br />I am hafezul queran "Hafez does not
+          approve of formal religion for people. Hafez believes in a God that
+          manifests in every aspect of life. We’ve rounded up the best Rumi
+          Hafiz quotes about identity and religion to give you a peek into the
+          poet’s fearless idea of God for people."
         </p>
         <br />
-        <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-          ipsum a, deserunt doloremque corrupti officiis minima, magnam rerum
-          itaque provident incidunt quasi consectetur eveniet! Nostrum ullam
-          fugiat adipisci error non!
-        </p>
       </div>
     </div>
   );
